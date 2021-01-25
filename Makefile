@@ -6,7 +6,7 @@
 #    By: ivarosic <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/01/23 11:53:40 by ivarosic          #+#    #+#              #
-#    Updated: 2021/01/24 13:23:36 by ivarosic         ###   ########lyon.fr    #
+#    Updated: 2021/01/25 16:39:47 by ivarosic         ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,6 +17,7 @@ NAME_LIB = libasm.a
 SRCS = 	ft_strlen.s \
 		ft_strcpy.s	\
 		ft_strcmp.s	\
+		ft_write.s	\
 
 CC = gcc
 

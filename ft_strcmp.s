@@ -6,7 +6,7 @@
 ;    By: ivarosic <ivarosic@student.42lyon.f>       +#+  +:+       +#+         ;
 ;                                                 +#+#+#+#+#+   +#+            ;
 ;    Created: 2021/01/23 15:33:18 by ivarosic          #+#    #+#              ;
-;    Updated: 2021/01/24 14:29:40 by ivarosic         ###   ########.fr        ;
+;    Updated: 2021/01/25 16:23:22 by ivarosic         ###   ########.fr        ;
 ;                                                                              ;
 ; **************************************************************************** ;
 
@@ -23,8 +23,8 @@ loop:
 		jz return
 		cmp byte[rsi, rcx], 0
 		jz return
-		mov r8, [rdi, rcx]
-		cmp [rsi, rcx], r8
+		mov al, [rdi, rcx]
+		cmp [rsi, rcx], al
 		jnz return
 		inc rcx
 		jmp loop
