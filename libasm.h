@@ -6,7 +6,7 @@
 /*   By: ivanrosic <ivanrosic@student.le-101>       +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2021/01/23 02:26:21 by ivanrosic     #+#   ##    ##    #+#       */
-/*   Updated: 2021/01/26 11:44:08 by ivarosic         ###   ########lyon.fr   */
+/*   Updated: 2021/01/27 02:59:28 by ivanrosic    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -14,11 +14,11 @@
 #ifndef LIBASM_H
 # define LIBASM_H
 
-#include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <string.h>
-#include <errno.h>
+# include <stdio.h>
+# include <unistd.h>
+# include <stdlib.h>
+# include <string.h>
+# include <errno.h>
 
 size_t	ft_strlen(char *str);
 char	*ft_strcpy(char *dst, char *src);
