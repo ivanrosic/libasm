@@ -6,7 +6,7 @@
 #    By: cacharle <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/02/08 03:06:59 by cacharle          #+#    #+#              #
-#    Updated: 2021/01/27 03:13:27 by ivanrosic    ###    #+. /#+    ###.fr      #
+#    Updated: 2021/01/27 16:44:55 by ivarosic         ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,10 +27,10 @@ SRC = main.c \
 	  test/ft_strcpy_test.c \
 	  test/ft_strcmp_test.c \
 	  test/ft_write_test.c \
-
-SRCBONUS = helper_list.c \
 	  test/ft_read_test.c \
 	  test/ft_strdup_test.c\
+
+SRCBONUS = helper_list.c \
 		   test/ft_atoi_base_test.c \
 		   test/ft_list_size_test.c \
 		   test/ft_list_push_front_test.c \

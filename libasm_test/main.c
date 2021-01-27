@@ -6,7 +6,7 @@
 /*   By: cacharle <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 03:06:45 by cacharle          #+#    #+#             */
-/*   Updated: 2021/01/27 03:14:04 by ivanrosic    ###    #+. /#+    ###.fr     */
+/*   Updated: 2021/01/27 16:44:46 by ivarosic         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,10 @@ int main(void)
 	ft_strcpy_test();
 	ft_strcmp_test();
 	ft_write_test();
-
-#ifdef LIBASM_TEST_BONUS
 	ft_read_test();
 	ft_strdup_test();
+
+#ifdef LIBASM_TEST_BONUS
 	ft_atoi_base_test();
 	ft_list_push_front_test();
 	ft_list_size_test();

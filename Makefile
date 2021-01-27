@@ -6,7 +6,7 @@
 #    By: ivarosic <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/01/23 11:53:40 by ivarosic          #+#    #+#              #
-#    Updated: 2021/01/27 03:02:42 by ivanrosic    ###    #+. /#+    ###.fr      #
+#    Updated: 2021/01/27 16:40:14 by ivarosic         ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,6 +18,8 @@ SRCS = 	ft_strlen.s \
 		ft_strcpy.s	\
 		ft_strcmp.s	\
 		ft_write.s	\
+		ft_read.s	\
+		ft_strdup.s	\
 
 CC = gcc
 
